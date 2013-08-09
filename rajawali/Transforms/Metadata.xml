@@ -6,4 +6,13 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+  <attr path="/api/package[@name='rajawali.parser.fbx']/class[@name='FBXValues.Objects.Pose.PoseNode']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rajawali.parser.fbx']/class[@name='FBXValues.Objects.Material']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rajawali.parser.fbx']/class[@name='FBXValues.Objects.Model']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rajawali.parser.fbx']/class[@name='FBXValues.Objects.Texture']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rajawali.parser.fbx']/class[@name='FBXValues.Relations.Material']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rajawali.parser.fbx']/class[@name='FBXValues.Relations.Model']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rajawali.parser.fbx']/class[@name='FBXValues.Relations.Texture']" name="visibility">public</attr>
+  <attr path="/api/package[@name='rajawali.parser.fbx']/class[@name='FBXValues.FBXHeaderExtension']" name="visibility">public</attr>
+
 </metadata>
